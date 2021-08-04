@@ -53,6 +53,8 @@
   --button-font-weight: 900;
   --button-border-radius: 30px;
   --button-padding: 15px 40px;
+
+  --container-max-width: 1100px;
 }
 
 body {
@@ -89,6 +91,7 @@ button {
 }
 
 .overline-text {
+  text-transform: uppercase;
   font-size: var(--overline);
   line-height: var(--overline-line-height);
   letter-spacing: var(--overline-letter-spacing);
@@ -99,6 +102,12 @@ button {
   font-size: var(--checkpoint);
   line-height: var(--checkpoint-line-height);
   font-weight: var(--checkpoint-font-weight);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--container-max-width);
 }
 
 @media (max-width: 768px) {
