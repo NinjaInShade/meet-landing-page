@@ -12,10 +12,12 @@
 
   /* Primary */
   --primary: #4d96a9;
+  --primary-hover: #71c0d4;
   --primary-light: #8fe3f9;
 
   /* Secondary */
   --secondary: #855fb1;
+  --secondary-hover: #b18bdd;
   --secondary-light: #d9b8ff;
 
   /* Neutral */
@@ -44,6 +46,8 @@
   --button: 16px;
   --button-line-height: 16px;
   --button-font-weight: 900;
+  --button-border-radius: 30px;
+  --button-padding: 15px 40px;
 }
 
 body {
@@ -63,6 +67,7 @@ h2 {
 }
 
 button {
+  cursor: pointer;
   border: none;
   outline: none;
   background: none;

@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  margin: 80px 0 105px 0;
+}
+
+.header-title {
+  text-align: center;
+  color: var(--black);
+  max-width: 445px;
+}
+
+.header-description {
+  text-align: center;
+  color: var(--gray);
+  margin: 35px 0 32px 0;
+  max-width: 540px;
+}
+
+.header-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-first-btn {
+  margin-right: 16px;
+}
