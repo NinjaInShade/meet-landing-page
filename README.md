@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-<!-- - Solution URL: (https://www.frontendmentor.io/solutions/responsive-profile-card-d5wUVm3-A) -->
-<!-- - Live Site URL: (https://lm-profile-card.netlify.app/) -->
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-landing-page-with-grid-css-vars-cImP4dY0_)
+- Live Site URL: (https://lm-meet-landing-page.netlify.app/)
 
 ## My process
 
