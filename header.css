@@ -28,7 +28,7 @@
 }
 
 .header-img-left {
-  bottom: 50px;
+  top: -50px;
   right: calc(100% + 88px);
 }
 
