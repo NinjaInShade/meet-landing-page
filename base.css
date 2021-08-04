@@ -1,5 +1,5 @@
 * {
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
@@ -11,28 +11,94 @@
   scroll-behavior: smooth;
 
   /* Primary */
-  --cyan: hsl(185, 75%, 39%);
-  --dark-desat-blue: hsl(229, 23%, 23%);
-  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --primary: #4d96a9;
+  --primary-light: #8fe3f9;
+
+  /* Secondary */
+  --secondary: #855fb1;
+  --secondary-light: #d9b8ff;
 
   /* Neutral */
-  --dark-gray: hsl(0, 0%, 59%);
-  --light-gray: hsl(228, 9%, 92%);
+  --black: #28283d;
+  --gray: #87879d;
+  --white: #fafafa;
 
   /* Typography */
+  --h1: 64px;
+  --h1-line-height: 64px;
+  --h1-font-weight: 900;
+
+  --h2: 40px;
+  --h2-line-height: 44px;
+  --h2-font-weight: 900;
+
   --body: 18px;
-  --body-m: 14px;
-  --body-s: 10px;
+  --body-line-height: 26px;
+  --body-font-weight: 500;
+
+  --overline: 16px;
+  --overline-line-height: 26px;
+  --overline-letter-spacing: 4px;
+  --overline-font-weight: 900;
+
+  --button: 16px;
+  --button-line-height: 16px;
+  --button-font-weight: 900;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(./assets/bg-pattern-top.svg), url(./assets/bg-pattern-bottom.svg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
-  background-color: var(--cyan);
-  min-height: 100vh;
-  padding: 30px;
+  background-color: var(--white);
+}
+
+h1 {
+  font-size: var(--h1);
+  line-height: var(--h1-line-height);
+  font-weight: var(--h1-font-weight);
+}
+
+h2 {
+  font-size: var(--h2);
+  line-height: var(--h2-line-height);
+  font-weight: var(--h2-font-weight);
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.body-text {
+  font-size: var(--body);
+  line-height: var(--body-line-height);
+  font-weight: var(--body-font-weight);
+}
+
+.overline-text {
+  font-size: var(--overline);
+  line-height: var(--overline-line-height);
+  letter-spacing: var(--overline-letter-spacing);
+  font-weight: var(--overline-font-weight);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --h1: 48px;
+    --h1-line-height: 48px;
+
+    --h2: 40px;
+    --h2-line-height: 44px;
+
+    --body: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  :root {
+    --h1: 40px;
+    --h1-line-height: 44px;
+
+    --h2: 32px;
+    --h2-line-height: 36px;
+  }
 }

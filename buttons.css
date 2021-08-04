@@ -1,0 +1,5 @@
+.btn {
+  font-size: var(--button);
+  line-height: var(--button-line-height);
+  font-weight: var(--button-font-weight);
+}
