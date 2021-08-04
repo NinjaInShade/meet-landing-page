@@ -4,6 +4,27 @@
   margin: 80px 0 105px 0;
 }
 
+.header {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.header-img-left,
+.header-img-right {
+  position: absolute;
+}
+
+.header-img-left {
+  bottom: 50px;
+  right: calc(100% + 88px);
+}
+
+.header-img-right {
+  top: 10px;
+  left: calc(100% + 88px);
+}
+
 .header-title {
   text-align: center;
   color: var(--black);
