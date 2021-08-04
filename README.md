@@ -42,7 +42,11 @@ Users should be able to:
 
 ### What I learned
 
-Not build yet
+First thing I learnt or paid more attention to get better at was adding in the styles and util classes at the start.
+
+I was given a style guide, so I carefully defined colour names vars, and then added variables for each typography element, it's font size, weight, line-height and letter spacing (didn't include colour as this changes with context, better to change at component level).
+
+I made sure to change any properties that needed changing at tablet and mobile view with media queries. I then gave h1 and h2 elements their styles, however with the other text I opted for utility classes, as I can't say for sure they will be only <p> or only this or that, making it more flexible.
 
 ## Author
 
