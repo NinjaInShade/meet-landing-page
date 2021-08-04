@@ -1,4 +1,28 @@
 .checkpoint-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkpoint-line {
+  background-color: var(--gray-transparent);
+  width: 1px;
+  height: 85px;
+}
+
+.checkpoint-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--gray-transparent);
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+}
+
+.checkpoint-num {
+  color: var(--gray);
 }
 
 .home-checkpoint {

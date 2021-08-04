@@ -23,6 +23,7 @@
   /* Neutral */
   --black: #28283d;
   --gray: #87879d;
+  --gray-transparent: rgba(135, 135, 157, 0.25);
   --white: #fafafa;
 
   /* Typography */
@@ -42,6 +43,10 @@
   --overline-line-height: 26px;
   --overline-letter-spacing: 4px;
   --overline-font-weight: 900;
+
+  --checkpoint: 16px;
+  --checkpoint-line-height: 26px;
+  --checkpoint-font-weight: 900;
 
   --button: 16px;
   --button-line-height: 16px;
@@ -88,6 +93,12 @@ button {
   line-height: var(--overline-line-height);
   letter-spacing: var(--overline-letter-spacing);
   font-weight: var(--overline-font-weight);
+}
+
+.checkpoint-text {
+  font-size: var(--checkpoint);
+  line-height: var(--checkpoint-line-height);
+  font-weight: var(--checkpoint-font-weight);
 }
 
 @media (max-width: 768px) {
