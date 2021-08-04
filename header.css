@@ -95,3 +95,22 @@
     margin-bottom: 72px;
   }
 }
+
+@media (max-width: 375px) {
+  .header-btns {
+    flex-direction: column;
+  }
+
+  .header-first-btn {
+    margin: 0 0 16px 0;
+  }
+
+  .nav {
+    margin-bottom: 55px;
+  }
+
+  .header-img-tablet {
+    max-width: 414px;
+    margin-bottom: 48px;
+  }
+}
