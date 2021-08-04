@@ -16,6 +16,7 @@
   justify-content: center;
   align-items: center;
   border: 1px solid var(--gray-transparent);
+  background: var(--white);
   border-radius: 50%;
   width: 56px;
   height: 56px;
@@ -30,7 +31,10 @@
 }
 
 .about-checkpoint {
+  position: relative;
+  z-index: 3;
   margin-top: 72px;
+  margin-bottom: -28px;
 }
 
 @media (max-width: 768px) {
