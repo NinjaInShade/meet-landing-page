@@ -52,6 +52,10 @@
   .about-content {
     margin-top: 48px;
   }
+
+  .about-description {
+    max-width: 575px;
+  }
 }
 
 @media (max-width: 550px) {
